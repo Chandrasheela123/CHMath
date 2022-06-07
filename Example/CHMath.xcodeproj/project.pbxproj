@@ -38,13 +38,13 @@
 		607FACE51AFB9204008FA782 /* CHMath_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHMath_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		63145FBFF41345D5B35F5128 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8A26E4B235F9EA295A545AC9 /* CHMath.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CHMath.podspec; path = ../CHMath.podspec; sourceTree = "<group>"; };
+		63145FBFF41345D5B35F5128 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8A26E4B235F9EA295A545AC9 /* CHMath.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CHMath.podspec; path = ../CHMath.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		92ECFF74573B26505C6E5850 /* Pods-CHMath_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHMath_Example.debug.xcconfig"; path = "Target Support Files/Pods-CHMath_Example/Pods-CHMath_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC1B04329EADE5871A31B006 /* Pods-CHMath_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHMath_Example.release.xcconfig"; path = "Target Support Files/Pods-CHMath_Example/Pods-CHMath_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C0C500380D5C5327CD00E616 /* Pods-CHMath_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHMath_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CHMath_Tests/Pods-CHMath_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C72DB6734CEDC54960A42F3D /* Pods_CHMath_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHMath_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC1538B3FEFED3983ADFF82D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CC1538B3FEFED3983ADFF82D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D7B581C57BC4B4CC6B16C438 /* Pods-CHMath_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHMath_Tests.release.xcconfig"; path = "Target Support Files/Pods-CHMath_Tests/Pods-CHMath_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FD8824463C342F0DF6718EA5 /* Pods_CHMath_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHMath_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				C0C500380D5C5327CD00E616 /* Pods-CHMath_Tests.debug.xcconfig */,
 				D7B581C57BC4B4CC6B16C438 /* Pods-CHMath_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
